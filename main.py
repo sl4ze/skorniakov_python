@@ -23,7 +23,7 @@ def run():
                     number = float(number)
                     if number % 3 == 0:
                         mltpls3.append(number)
-                print('ay elements that are multiples of 3 : ', numlist)
+                print('ay elements that are multiples of 3 : ', mltpls3)
                 break
             except Exception as e:
                 print('Wrong input: ', e)
